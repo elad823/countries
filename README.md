@@ -3,19 +3,21 @@
 
 What the app does?
 
-- View information about countries
+- Login and logout
+- View list of countries
+- View additional information for each selected country.
+- For each country you can vote as many times as you want.
 
 Requirements:
-
-- npm / yarn
-- React native
-- Expo App
+- Node 8+
+- expo-cli
+- Expo Mobile App
 
 
 #### Installation
-
-- Clone the project to your computer
-- From the clone directory run:
- -  yarn install or npm install
-- Download Expo app to your mobile : https://expo.io/learn
-- To send API requests, send requests to the endpoint: http://localhost:8000. More details about the API methods can find under the Design Document.
+- npm install -g expo-cli
+- git clone https://github.com/elad823/countries.git
+- cd countries
+- npm install
+- npm start
+- Install the Expo client app on your iOS or Android phone (https://expo.io/learn) and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, follow on-screen instructions to get a link.
